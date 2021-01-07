@@ -11,7 +11,7 @@ namespace World_Swimming_Record
             double timeInSec = double.Parse(Console.ReadLine());
 
             double ivansTime = distanceInMeters * timeInSec;
-            double slowingTime =Math.Floor(distanceInMeters / 15) * 12.5;
+            double slowingTime = Math.Floor(distanceInMeters / 15) * 12.5;
             double totalTime = ivansTime + slowingTime;
             double neededSec = totalTime - recordToImproveSec;
 
